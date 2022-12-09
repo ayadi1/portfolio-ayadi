@@ -3,6 +3,9 @@
   flex-direction: column;
   align-items: center;
 }
+.app__Portfolio h2 {
+  text-align: center;
+}
 .app__Portfolio h2 span {
   color: var(--color-light-blue);
 }
@@ -27,6 +30,9 @@
 @media screen and (max-width: 666px) {
   .app__Portfolio-cards {
     grid-template-columns: 1fr;
+  }
+  .app__Portfolio h2 {
+    font-size: 45px;
   }
 }
 @media screen and (max-width: 500px) {
