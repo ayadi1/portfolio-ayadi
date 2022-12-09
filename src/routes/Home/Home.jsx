@@ -1,6 +1,6 @@
 import React from "react";
 import "./Home.css";
-import me from "../../assets/me.jpeg";
+import me from "../../assets/me.png";
 export default function Home() {
   return (
     <div className="app__Home">
