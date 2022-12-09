@@ -46,3 +46,9 @@
     margin-top: 50px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .app__About {
+    padding: 1rem;
+  }
+}

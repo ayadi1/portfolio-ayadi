@@ -58,3 +58,9 @@
     width: 100%;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .app__main {
+    padding: 1rem;
+  }
+}
