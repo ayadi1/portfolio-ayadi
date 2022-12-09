@@ -12,8 +12,6 @@
   flex-direction: column;
   gap: 50px;
 }
-.app__main-nav__list-item {
-}
 .app__main-nav__list-item__link {
   background-color: var(--color-blue-gray);
   width: 60px;
@@ -50,7 +48,6 @@
   }
   .app__main-nav {
     background-color: #202938;
-    align-self: stretch;
     padding: 1rem;
     position: fixed;
     top: auto;
