@@ -1,0 +1,60 @@
+.app__main {
+  padding: 2.5rem;
+  display: flex;
+  justify-content: space-between;
+  height: 100vh;
+}
+.app__main-nav {
+  align-self: center;
+}
+.app__main-nav__list {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.app__main-nav__list-item {
+}
+.app__main-nav__list-item__link {
+  background-color: var(--color-blue-gray);
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.app__main-nav__list-item__link:hover {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-name: rubberBand;
+  background-color: var(--color-light-blue);
+}
+#detail {
+  width: 100%;
+}
+
+@media screen and (max-width: 550px) {
+  #detail {
+    padding: 1rem;
+  }
+  .app__main {
+    flex-direction: column;
+    padding: 0;
+  }
+  .app__main-nav__list {
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+  }
+  .app__main-nav {
+    background-color: #202938;
+    align-self: stretch;
+    padding: 1rem;
+    position: fixed;
+    top: auto;
+    bottom: 0;
+    width: 100%;
+  }
+}

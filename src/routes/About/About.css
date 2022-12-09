@@ -1,0 +1,48 @@
+.app__About {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 2rem;
+}
+.app__About h2 span {
+  color: var(--color-light-blue);
+}
+.app__About-diplome {
+  margin-top: 100px;
+}
+.app__About-diplome h3,
+.app__About-competences h3,
+.app__About-technologie h3 {
+  font-size: 30px;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 175%;
+  margin-bottom: 50px;
+}
+.app__About-diplome__list,
+.app__About-competences-list,
+.app__About-technologie-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+.app__About-competences {
+  margin-top: 100px;
+}
+.app__About-technologie {
+  margin-top: 100px;
+  width: 100%;
+}
+@media screen and (max-width: 768px) {
+  .app__About-diplome__list,
+  .app__About-competences-list,
+  .app__About-technologie-list {
+    grid-template-columns: 1fr;
+  }
+  .app__About-diplome,
+  .app__About-competences,
+  .app__About-technologie {
+    margin-top: 50px;
+  }
+}

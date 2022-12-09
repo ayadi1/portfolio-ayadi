@@ -1,0 +1,21 @@
+.app__Technologie {
+}
+.app__Technologie-title {
+}
+.app__Technologie-line {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.app__Technologie-line .count {
+}
+.app__Technologie-line .dark-line {
+  height: 6px;
+  background-color: var(--color-blue-gray);
+  width: 80%;
+  border: 1px solid var(--color-light-blue);
+}
+.app__Technologie-line .blue-line {
+  height: 6px;
+  background-color: var(--color-light-blue);
+}

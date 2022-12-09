@@ -1,0 +1,51 @@
+.app__Home {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+.app__Home-image {
+  max-width: 550px;
+}
+.app__Home-image img {
+  width: 100%;
+}
+.app__Home-content {
+  max-width: 450px;
+}
+.app__Home-content h2 {
+  text-transform: uppercase;
+  font-size: 3rem;
+  font-weight: 700;
+  font-family: var(--font-titles);
+  line-height: 150%;
+}
+.app__Home-content h2 span {
+  color: var(--color-light-blue);
+}
+.app__Home-content p {
+  max-width: 450px;
+  font-size: 1rem;
+  margin: 20px 0;
+}
+.app__Home-content a {
+  margin-top: 20px;
+  border: 1px solid var(--color-light-blue);
+  font-weight: 500;
+  font-size: 2rem;
+  padding: 0 40px;
+  border-radius: 30px;
+}
+.app__Home-content a:hover {
+  border-color: var(--color-white);
+  background-color: var(--color-light-blue);
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-name: heartBeat;
+}
+@media screen and (max-width: 1000px) {
+  .app__Home {
+    flex-direction: column-reverse;
+  }
+}
