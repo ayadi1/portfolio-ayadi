@@ -1,0 +1,58 @@
+.app__Contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.app__Contacts h2 span {
+  color: var(--color-light-blue);
+}
+.app__Contacts-info {
+  margin-top: 100px;
+  width: 80%;
+}
+.app__Contacts-info h4 {
+  font-size: 30px;
+  font-weight: 700;
+}
+.app__Contacts-info .row {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  border-bottom: 2px solid var(--color-blue-gray);
+  padding-bottom: 5px;
+}
+.app__Contacts-info .row .col-icon {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.app__Contacts-icons {
+  margin-top: 50px;
+  display: flex;
+  gap: 20px;
+  margin-bottom: 100px;
+}
+.app__Contacts-icons a {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-blue-gray);
+  border-radius: 50%;
+}
+.app__Contacts-icons a:hover {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-name: rubberBand;
+  background-color: var(--color-light-blue);
+}
+@media screen and (max-width: 600px) {
+  .app__Contacts-info .row {
+    flex-direction: column;
+  }
+}
