@@ -46,6 +46,9 @@
     margin-top: 50px;
   }
 }
+.app__About-competences{
+  margin-bottom: 100px;
+}
 
 @media screen and (max-width: 768px) {
   .app__About {
