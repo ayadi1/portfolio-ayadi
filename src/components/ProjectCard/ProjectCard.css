@@ -2,6 +2,8 @@
   height: 200px;
   background-size: cover;
   border-radius: 10px;
+  background-color: var(--color-light-blue);
+  border: 1px solid #fff;
 }
 .app__ProjectCard-content {
   height: 100%;

@@ -14,11 +14,11 @@ export default function Portfolio() {
       <div className="app__Portfolio-cards">
         {projects.map((project) => (
           <ProjectCard
-            key={project.id}
-            image={project.image}
-            title={project.title}
-            github={project.github}
-            previewLink={project.previewLink}
+            key={project?.id}
+            image={project?.image}
+            title={project?.title}
+            github={project?.github}
+            previewLink={project?.previewLink}
           />
         ))}
       </div>
