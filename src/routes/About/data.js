@@ -44,7 +44,7 @@ const experience = [
   },
   {
     id: 6,
-    date: "2021/2022",
+    date: "2022",
     title: "freelance développer un site web de gestion des vente et stock",
     location: "Pneu Map SARL",
     content: [],

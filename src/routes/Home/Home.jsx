@@ -12,9 +12,9 @@ export default function Home() {
           Bonjour, je suis <span>AYADI Oussama</span>. full stack developer.
         </h2>
         <p>
-          j'ai l'esprit d'équipe, mon superpouvoir je suis un chercheur et
-          j'apprends rapidement. Je maîtrise les différentes étapes techniques
-          de la création d'un site ou d'une application web
+          j'ai l'esprit d'équipe, Mon point fort c'est que je cherche
+          l'information et j'apprends rapidement. Je maîtrise les différentes
+          étapes techniques de la création d'un site ou d'une application web
         </p>
         <a href="#a">telecharger cv</a>
       </div>
