@@ -16,7 +16,12 @@ export default function Home() {
           l'information et j'apprends rapidement. Je maîtrise les différentes
           étapes techniques de la création d'un site ou d'une application web
         </p>
-        <a href="#a">telecharger cv</a>
+        <a
+          href="https://drive.google.com/file/d/1T2XBuz5RxE9Lc2RAUM4ZabeKkgLlwEL1/view?usp=share_link"
+          target="_blank"
+        >
+          telecharger cv
+        </a>
       </div>
     </div>
   );
