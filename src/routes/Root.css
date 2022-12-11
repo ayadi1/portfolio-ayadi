@@ -12,6 +12,9 @@
   flex-direction: column;
   gap: 50px;
 }
+.app__main-nav__list:hover > :not(:hover) {
+  opacity: 0.4;
+}
 .app__main-nav__list-item__link {
   background-color: var(--color-blue-gray);
   width: 60px;
