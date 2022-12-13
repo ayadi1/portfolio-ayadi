@@ -4,7 +4,7 @@
   gap: 50px;
 }
 .app__Home-image {
-  max-width: 400px;
+  max-width: 500px;
 }
 .app__Home-image img {
   width: 100%;
@@ -44,6 +44,13 @@
   animation-fill-mode: both;
   animation-name: heartBeat;
 }
+@media screen and (min-width: 1000px) {
+  .app__Home-content,
+  .app__Home-image {
+    max-width: 45vw;
+  }
+}
+
 @media screen and (max-width: 1000px) {
   .app__Home {
     flex-direction: column-reverse;

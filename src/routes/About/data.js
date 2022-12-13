@@ -28,6 +28,20 @@ const deplome = [
     location: "L'Association Al Jisr Berkane",
     content: [],
   },
+  {
+    id: 5,
+    date: "2017/2019",
+    title: "DIPLOME TECHNICIEN SPÉCIALISÉ EN ELECTROMECANIQUE DES SYSTEMES AUTOMATISES",
+    location: "L'ista  Berkane",
+    content: [],
+  },
+  {
+    id: 6,
+    date: "2016/2017",
+    title: "BACCALAURÉAT EN SCIENCES PHYSIQUE ET CHIMIE",
+    location: "Lyccée Moulouya Berkane",
+    content: [],
+  },
 ];
 
 const experience = [
@@ -60,7 +74,7 @@ const technologies = [
   {
     id: 2,
     title: "HTML",
-    size: 75,
+    size: 85,
   },
   {
     id: 3,
@@ -70,7 +84,7 @@ const technologies = [
   {
     id: 4,
     title: "JAVASCRIPT",
-    size: 75,
+    size: 80,
   },
   {
     id: 5,
